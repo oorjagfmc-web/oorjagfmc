@@ -1179,3 +1179,28 @@
     background: var(--bs-dark) !important;
 }
 /*** copyright end ***/
+.btn-primary{
+    background-color: #1d4086!important;
+    border-color: #861a31 !important;
+}
+
+.text-primary{
+    color: #1d4086 !important;
+}
+
+.bg-primary{
+    background-color: #06b6d4 !important;
+}
+
+.border-primary{
+    border-color: #06b6d4 !important;
+}
+
+.btn-secondary{
+    background-color: #861a31 !important;
+    border-color: #861a31 !important;
+}
+
+.text-secondary{
+    color: #861a31 !important;
+}
