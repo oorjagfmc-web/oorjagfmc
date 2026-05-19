@@ -68,7 +68,6 @@
 
 .btn.btn-primary {
     box-shadow: inset 0 0 0 0 var(--bs-primary);
-    margin-top: 80px;
 }
 
 .btn.btn-primary:hover {
