@@ -482,7 +482,7 @@
 
 .service .service-item:hover .service-img::before {
     height: 100%;
-    background: rgba(21, 185, 217, .3);
+    background: rgba(29, 64, 134, .3);
 }
 
 .service .service-item .service-img:hover img {
@@ -510,7 +510,7 @@
 }
 
 .service .service-item:hover .service-content::before {
-    background: rgba(29, 64, 134, .5);
+    background: rgba(29, 64, 134);
     height: 100%;
 }
 
