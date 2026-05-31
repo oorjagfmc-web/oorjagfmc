@@ -1152,24 +1152,47 @@
 
 /*** Footer Start ***/
 .footer {
-    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(./img/carousel-1.jpg);
+   background:
+    linear-gradient(
+        rgba(255,255,255,0.85),
+        rgba(255,255,255,0.85)
+    ),
+    url(./img/carousel-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.footer .footer-item a {
+/* Headings */
+.footer .footer-item h4 {
+    color: #861a31 !important;
+}
+
+/* Text */
+.footer .footer-item p {
+    color: #1d4086 !important;
     line-height: 35px;
-    color: var(--bs-body);
+}
+
+/* Links */
+.footer .footer-item a {
+    color: #1d4086 !important;
+    line-height: 35px;
     transition: 0.5s;
 }
 
-.footer .footer-item p {
-    line-height: 35px;
+.footer .footer-item a:hover {
+    color: #861a31 !important;
+    letter-spacing: 1px;
 }
 
-.footer .footer-item a:hover {
-    letter-spacing: 2px;
-    color: var(--bs-primary);
+/* Icons */
+.footer .footer-item i {
+    color: #861a31 !important;
+}
+
+/* Share icon */
+.footer .fa-share {
+    color: #861a31 !important;
 }
 
 /*** Footer End ***/
