@@ -510,7 +510,7 @@
 }
 
 .service .service-item:hover .service-content::before {
-    background: rgba(21, 185, 217, .5);
+    background: rgba(29, 64, 134, .5);
     height: 100%;
 }
 
